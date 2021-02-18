@@ -1,1 +1,73 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T09:38:35.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="Nc2vwL0XSt_5K1jX64w6" version="14.3.0" type="github"><diagram id="1JSylhCy0G0jC_GHJVuh" name="Page-1">zZVRb5swEMc/DY9D2KZZXhfWbNNUaVo3da8uPsCLwciYQPbpZ4cjQGmkTtq0Eh7s/53v7PudScCSsv9geF3caQEqoJHoA/Y+oJTElAb+jcRpULZRPAi5kQKdJuFe/gIUI1RbKaBZOFqtlZX1Ukx1VUFqFxo3RndLt0yrZdaa57AS7lOu1uqDFLbAU9xEk/4RZF6MmUmElpKPzig0BRe6m0nsNmCJ0doOo7JPQPnijXUZ1u2vWC8bM1DZlyz4on/sT9ndp+N3pfRnReDQkDcY5chViwfGzdrTWIHGGn24HJ4EbHc5SeQmgjcFCJxwJfPKjVO3JzBOKGypplW1D1n2uW+VsNTpoa1DB85yWYFpwkePC8yDrM7hdwbbwUcedpFopc15W2xzfpYWOpiiaJtm2dLEBlMa+58zlS7nN+iHyiU+GaStaeQRvkIzpcXygLHQX607udB01wB0CdacnAsuiJE/XgAy9kM3a6exaYpZK8VbFDm2cH4JPVF2AwT9B9DpCvrPtqxllTvxkfv1/60FeJUWnvAucxriJ29x/hz9MZ2CzL6U1/WbcBXi5inEFUNCnmFIN/8IIVshLKz1n8R3Pi7dd10XCsO7UOrXQHN+k18ZWcKWaDfr60lv/g5aN50+92fb7E+T3f4G</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-18T09:48:23.201Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="7se-IklJoBY4wG770pH5" version="14.3.0" type="github">
+  <diagram id="1JSylhCy0G0jC_GHJVuh" name="Page-1">
+    <mxGraphModel dx="1185" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PoXFyfMIvUlloKl1eks1-1" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.browserWindow;rSize=0;strokeColor=#666666;strokeColor2=#008cff;strokeColor3=#c4c4c4;mainText=,;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="180" y="160" width="800" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="PoXFyfMIvUlloKl1eks1-2" value="jumping ball" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;fontSize=17;fontColor=#666666;align=left;" parent="PoXFyfMIvUlloKl1eks1-1" vertex="1">
+          <mxGeometry x="60" y="12" width="110" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PoXFyfMIvUlloKl1eks1-3" value="https://www.draw.io" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.anchor;rSize=0;fontSize=17;fontColor=#666666;align=left;" parent="PoXFyfMIvUlloKl1eks1-1" vertex="1">
+          <mxGeometry x="130" y="60" width="250" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-1" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="PoXFyfMIvUlloKl1eks1-1">
+          <mxGeometry x="375" y="315" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-14" value="" style="verticalLabelPosition=bottom;shadow=0;dashed=0;align=center;html=1;verticalAlign=top;strokeWidth=1;shape=mxgraph.mockup.graphics.simpleIcon;strokeColor=#999999;" vertex="1" parent="PoXFyfMIvUlloKl1eks1-1">
+          <mxGeometry y="365" width="800" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-16" value="Jump" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.buttons.button;strokeColor=#666666;fontColor=#ffffff;mainText=;buttonStyle=round;fontSize=17;fontStyle=1;fillColor=#008cff;whiteSpace=wrap;" vertex="1" parent="PoXFyfMIvUlloKl1eks1-1">
+          <mxGeometry x="20" y="125" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-3" value="Qui va messa l&#39;immagine di una palla" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="535" y="695" width="90" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-4" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4SRlWSMIhAIwFaKgHMtI-3" target="4SRlWSMIhAIwFaKgHMtI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="665" as="sourcePoint" />
+            <mxPoint x="610" y="465" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-11" value="Immagine di un terreno" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="385" width="60" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-15" value="" style="endArrow=classic;html=1;entryX=0.813;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4SRlWSMIhAIwFaKgHMtI-11" target="4SRlWSMIhAIwFaKgHMtI-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="435" as="sourcePoint" />
+            <mxPoint x="970" y="633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-17" value="Quando il pulsante viene premuto, la palla salta" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="247.5" width="140" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4SRlWSMIhAIwFaKgHMtI-17" target="4SRlWSMIhAIwFaKgHMtI-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="420" as="sourcePoint" />
+            <mxPoint x="560" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-19" value="La palla si muove da destra verso sinistra e quando tocca il muro, cambia direzione (non importa se rimane sul posto o meno quando salta)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="720" y="660" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-20" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4SRlWSMIhAIwFaKgHMtI-19" target="4SRlWSMIhAIwFaKgHMtI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="540" as="sourcePoint" />
+            <mxPoint x="670" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-21" value="Quando il mouse passa sulla palla (hover) lo sfondo cambia colore" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="180" y="660" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-23" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=110;exitDy=60;exitPerimeter=0;" edge="1" parent="1" source="4SRlWSMIhAIwFaKgHMtI-21" target="4SRlWSMIhAIwFaKgHMtI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="440" as="sourcePoint" />
+            <mxPoint x="620" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
