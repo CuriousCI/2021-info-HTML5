@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T09:49:18.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="wgJigHlIIWlPMmLcLE_t" version="14.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T09:51:04.618Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" etag="W4wfy8JCYUHumQM3aqXx" version="14.3.0" type="github">
   <diagram id="1JSylhCy0G0jC_GHJVuh" name="Page-1">
     <mxGraphModel dx="1185" dy="670" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -49,7 +49,7 @@
             <mxPoint x="560" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4SRlWSMIhAIwFaKgHMtI-19" value="La palla si muove da destra verso sinistra e quando tocca il muro, cambia direzione (non importa se rimane sul posto o meno quando salta)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="4SRlWSMIhAIwFaKgHMtI-19" value="La palla si muove da destra verso sinistra e ogni volta che tocca il muro, cambia direzione (non importa se rimane sul posto o meno quando salta)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="720" y="660" width="180" height="90" as="geometry" />
         </mxCell>
         <mxCell id="4SRlWSMIhAIwFaKgHMtI-20" value="" style="endArrow=classic;html=1;exitX=0;exitY=0;exitDx=75;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4SRlWSMIhAIwFaKgHMtI-19" target="4SRlWSMIhAIwFaKgHMtI-1">
