@@ -1,0 +1,21 @@
+body {
+
+  //background-image: url('/ball/assets/erba.png');
+}
+
+#erba{
+
+  position: absolute;
+  top: 90%;
+  width: 100%;
+  height: 20%;
+}
+
+#palla{
+
+  position: absolute;
+
+  width: 5%;
+  height: 8%;
+
+}
