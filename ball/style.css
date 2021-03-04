@@ -15,7 +15,7 @@ body {
   height: 20%;
 }
 
-#palla{
+.ballInit{
 
   position: absolute;
 
@@ -25,5 +25,18 @@ body {
   width: 5%;
   height: auto;
 
-  transition: linear 3s;
+  transition: linear .5s;
+}
+
+.ballJump{
+
+  position: absolute;
+
+  top: 60%;
+  left: 50%;
+
+  width: 5%;
+  height: auto;
+
+  transition: linear .2s;
 }

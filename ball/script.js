@@ -4,7 +4,12 @@ let ball = {
 
   ballJump: function(){
 
-    $("#palla").css("top", 10 + "%");
+    $("#palla").addClass('ballJump');
+  },
+
+  ballFall: function(){
+
+     $("#palla").removeClass('ballJump')
   },
 
   changeBckground: function(mousePosition){
@@ -21,13 +26,12 @@ let ball = {
 
 let init = function(){
 
-  //$("#palla").mouseenter(ball.changeBckground("in")).mouseleave(ball.changeBckground("out"));
+  $("#palla").addClass("ballInit");
+
   $("#palla").hover(_ => ball.changeBckground("in"), _ => ball.changeBckground("out"));
 
   $("#jumpButton").on("click", ball.ballJump);
-
-  //$("#palla").css("left", 95 + "%");
-  //$("#palla").css("left", 0 + "%");
+  $("#palla").on("click", ball.ballFall);
 }
 
 $(document).ready(init);
