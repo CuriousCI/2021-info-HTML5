@@ -1,6 +1,10 @@
 body {
 
-  //background-image: url('/ball/assets/erba.png');
+  margin: 0%;
+  padding: 0%;
+
+  overflow: hidden;
+
 }
 
 #erba{
@@ -15,7 +19,11 @@ body {
 
   position: absolute;
 
-  width: 5%;
-  height: 8%;
+  top: 85%;
+  left: 50%;
 
+  width: 5%;
+  height: auto;
+
+  transition: linear 3s;
 }
