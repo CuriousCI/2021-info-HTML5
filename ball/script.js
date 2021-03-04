@@ -1,7 +1,7 @@
 let ball = {
 
   //ballY: 0,
-
+  
   ballJump: function(){
 
     $("#palla").addClass('ballJump');
@@ -9,7 +9,7 @@ let ball = {
 
   ballFall: function(){
 
-     $("#palla").removeClass('ballJump')
+     $("#palla").removeClass('ballJump');
   },
 
   changeBckground: function(mousePosition){
@@ -30,8 +30,17 @@ let init = function(){
 
   $("#palla").hover(_ => ball.changeBckground("in"), _ => ball.changeBckground("out"));
 
-  $("#jumpButton").on("click", ball.ballJump);
-  $("#palla").on("click", ball.ballFall);
+  setInterval(onTimerTick, 33); // 33 milliseconds = ~ 30 frames per sec
+
+  function onTimerTick() {
+
+    $("#jumpButton").on("click", ball.ballJump);
+
+    if($("#palla").css("top") == 202.797 + "px"){
+
+      $("#palla").removeClass('ballJump');
+    }
+  }
 }
 
 $(document).ready(init);
