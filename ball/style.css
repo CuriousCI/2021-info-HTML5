@@ -25,15 +25,35 @@ body {
   width: 5%;
   height: auto;
 
-  transition: .2s;
+  transition: .5s;
 }
 
 .ballJump{
 
   position: absolute;
 
-  top: 60%;
+  top:220px;
   left: 50%;
 
-  transition: linear .1s;
+  transition: linear .3s;
+}
+
+.ballMoveLeft{
+
+  position: absolute;
+
+  top:85%;
+  left: 0%;
+
+  transition: linear 5s;
+}
+
+.ballMoveRight{
+
+  position: absolute;
+
+  top:85%;
+  left: 95%;
+
+  transition: linear 5s;
 }

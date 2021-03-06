@@ -7,11 +7,23 @@ let ball = {
 
   ballFall: function(){
 
-    if($("#palla").css("top") == 202.797 + "px"){
+    if($("#palla").css("top") == 220 + "px"){
 
       $("#palla").removeClass('ballJump');
     }
   },
+
+  /*move: function(){
+
+    $("#palla").addClass("ballMoveLeft");
+
+    console.log($("#palla").css("left"));
+
+    if($("#palla").css("left") == 0){
+
+      $("#palla").removeClass("ballMoveLeft").addClass("ballMoveRight");
+    }
+},*/
 
   changeBckground: function(mousePosition){
 
@@ -31,12 +43,16 @@ let init = function(){
 
   $("#palla").hover(_ => ball.changeBckground("in"), _ => ball.changeBckground("out"));
 
-  setInterval(onTimerTick, 33)
+  
+
+  setInterval(onTimerTick, 33);
 
   function onTimerTick() {
 
     $("#jumpButton").on("click", ball.ballJump);
     ball.ballFall();
+
+    //ball.move();
   }
 }
 
