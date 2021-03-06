@@ -1,29 +1,50 @@
 let ball = {
-  
-  ballJump: function(){
 
-    $("#palla").addClass('ballJump');
+  xPosition: 50,
+  yPosition: 85,
+
+  isAtRight: false,
+  isAtLeft : true,
+
+  jump: function(){
+
+    $("#palla").addClass('ballJump'); 
   },
 
-  ballFall: function(){
+  fall: function(){
 
     if($("#palla").css("top") == 220 + "px"){
 
-      $("#palla").removeClass('ballJump');
+     $("#palla").removeClass('ballJump');
     }
   },
 
-  /*move: function(){
+  move: function(){
+    
+    if(ball.isAtLeft == true){
 
-    $("#palla").addClass("ballMoveLeft");
+      ball.xPosition += 1;
+      $("#palla").css("left", ball.xPosition + "%");
 
-    console.log($("#palla").css("left"));
+        if(ball.xPosition == 95){
 
-    if($("#palla").css("left") == 0){
+          ball.isAtLeft = false;
+          ball.isAtRight = true;
+        }
+     }
 
-      $("#palla").removeClass("ballMoveLeft").addClass("ballMoveRight");
+    if(ball.isAtRight == true){
+
+      ball.xPosition -= 1;
+      $("#palla").css("left", ball.xPosition + "%");
+
+      if(ball.xPosition == 0){
+
+        ball.isAtLeft = true;
+        ball.isAtRight = false;
+      }
     }
-},*/
+  },
 
   changeBckground: function(mousePosition){
 
@@ -43,16 +64,14 @@ let init = function(){
 
   $("#palla").hover(_ => ball.changeBckground("in"), _ => ball.changeBckground("out"));
 
-  
+  $("#jumpButton").on("click", ball.jump);
 
   setInterval(onTimerTick, 33);
 
   function onTimerTick() {
 
-    $("#jumpButton").on("click", ball.ballJump);
-    ball.ballFall();
-
-    //ball.move();
+    ball.fall();
+    ball.move();
   }
 }
 
